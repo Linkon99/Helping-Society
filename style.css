@@ -1,0 +1,132 @@
+body {
+    font-family: 'open sans' , sans-serif;
+    margin: auto;
+
+  }
+
+  /* Start CSS */
+  /* Donate People  */
+  .donate-people{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.219), rgba(22, 20, 22, 0.822)), url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grayde;
+    height: 480px;
+    padding-bottom: 90px ;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding: 100px 200px;
+
+  }
+
+.donate-people p{
+  font-size: 20px;
+  padding: 0 130px 30px 130px;
+ }
+
+  .donate-people-btn-design{
+   
+    text-decoration: none;
+    background-color: tomato;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+/* Donate Today  */
+  .pad-section-donate-today{
+    margin: auto;
+    width: 80%;
+  }
+  .donate-today{
+    text-align: center;
+    font-size: 30px;;
+    padding: 50px 100px 0 100px;
+  }
+  .donate-today p{
+    font-size: 20px;
+    padding: 0 150px 0 150px;
+  }
+
+  .donate-today-box{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 60px;
+
+  }
+
+  #box-clr-design{
+    border: 3px solid tomato;
+    background-color: rgba(255, 99, 71, 0.24) ;
+  }
+  .box-clr-design{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 10px;
+    padding:20px;
+    height: 50px;
+  
+   
+  }
+  .box-clr-design:hover{
+    border: 3px solid tomato;
+    background-color: rgba(255, 99, 71, 0.24) ;
+  }
+ 
+  .donate-now{
+   text-align: center;
+ 
+  }
+  #out-border{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.205);
+    padding:20px 200px;
+    margin-bottom: 30px;
+ 
+  }
+  .amount-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+/* Our Donate Plan */
+  
+  .donate-plan{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 50px;
+ 
+  }
+  .donate-plan1{
+    padding: 20px;
+    margin: 20px;
+  }
+  #plan1{
+    background-color: rgba(0, 0, 255, 0.185);
+    border-radius: 5px;
+   
+  }
+  #plan2{
+    background-color: rgba(255, 0, 0, 0.185);
+    border-radius: 5px;
+  }
+  #plan3{
+    background-color: rgba(208, 255, 0, 0.185);
+    border-radius: 5px;
+  }
